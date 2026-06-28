@@ -98,6 +98,8 @@
         <div class="lesson"><b>比分必须分剧本</b><span>每场至少写基准比分、早进球放大比分、低位防守压低比分、红牌/崩盘比分、轮换失控比分，避免只给一个线性结果。</span></div>
         <div class="lesson"><b>连续低效强队不能一刀切降级</b><span>比利时1-5新西兰说明：若真实实力差巨大、核心攻击手首发且对手必须压出，前两场低效可能只是兑现延迟，不是永久降档。</span></div>
         <div class="lesson"><b>弱势方必须赢更容易制造让球崩盘</b><span>新西兰必须赢后防线被拉开，反而给比利时反击和二次进攻空间；深盘要评估“对手压出后第3/4/5球”。</span></div>
+        <div class="lesson"><b>强强/淘汰赛要保留90分钟平局</b><span>哥伦比亚0-0葡萄牙说明：强强局若双方都能接受风险后置，0-0/1-1不能只放在概率表，必须进入预测比分主区。</span></div>
+        <div class="lesson"><b>开放平局不是低比分平局</b><span>阿尔及利亚3-3奥地利说明：当双方都需要结果且防线转换质量一般，平局可能走2-2/3-3，而不是自动落到1-1。</span></div>
       <div class="note-warn">提示：如果你已经在旧版网页里录入过数据，点击下面按钮可把本次整理的历史复盘样本合并进当前记录，不会覆盖你已编辑过的同 ID 记录。</div>
       <div class="lesson-actions"><button class="btn-green" id="mergeHistoryBtn">合并历史复盘样本</button><button class="btn-light" id="resetWithDefaultsBtn">重置为新版默认样本</button></div>
       </div>
@@ -1071,6 +1073,29 @@
 }
 ];
 
+    const ROUND32_RECORDS=[
+{
+  "id":"073","matchNo":"073","matchName":"南非 vs 加拿大","kickoff":"2026-06-29 03:00","predictionScores":"1-1 / 0-1 / 1-2","pick":"平 / 防客胜","totalGoals":"1 / 2 / 3","actualScore":"","manualStatus":"auto","probHome":28,"probDraw":35,"probAway":37,"risk":"偏险",
+  "strengthRating":"南非 75｜加拿大 79｜实力差：加拿大 +4","strengthNote":"加拿大纸面速度、前场冲击和整体上限略高；南非在1-0韩国样本里证明了纪律、防守压迫和等待对手失误的能力。","strengthImpact":"基础客队略优，但淘汰赛90分钟平局权重必须上调，不能把加拿大锋线速度直接等同于常规时间胜出。","strengthConversion":"加拿大优势更像不败或一球小胜；南非若继续低位+高压反抢，1-1是最稳基准。",
+  "injury":"重点看加拿大中场推进点和南非防线完整度；任何中场拦截缺口都会把比赛从1-1推向1-2。","minutes":"淘汰赛首轮更容易先保结构，双方前60分钟不会像末轮争命局那样全面打开；若加拿大久攻不下，后段反而给南非反击和定位球机会。","form":"南非1-0韩国验证“必须赢不等于能赢”的反向样本；加拿大此前进攻上限高，但对瑞士2-1失利提醒强队稳定性未必足够。","motivation":"单场淘汰赛，90分钟平局价值很高；加拿大想主动，但南非可以接受把比赛拖入加时/点球心理区。","controlIntent":"南非会把比赛压低节奏，加拿大更需要主动破局。模型不把加拿大小组赛大胜样本线性外推。","weather":"洛杉矶午后环境对体能有要求，前场冲刺效率和补水节奏会影响后段。","odds":"按南非(+1)让球思路记录；若加拿大客胜受热，南非+1让胜要优先。","spfHomeOdds":"","spfDrawOdds":"","spfAwayOdds":"","rqLine":"+1","rqHomeOdds":"","rqDrawOdds":"","rqAwayOdds":"","rqPick":"让胜 / 让平","rqProb":"让胜48%｜让平33%｜让负19%","scoreProb":"1-1 22%｜0-1 18%｜1-2 14%｜0-0 12%｜1-0 9%","totalGoalProb":"2球35%｜1球23%｜3球25%｜0球10%｜4+球7%","halfFullProb":"平-平30%｜平-负24%｜平-胜12%｜负-负10%","handicapNote":"南非+1下，平局或南非不败为让胜，加拿大赢1球为让平；不建议单追加拿大打穿。","marketSnapshot":"073：南非vs加拿大，淘汰赛90分钟竞彩口径；固定奖金以出票页为准。","marketSourceNote":"对阵参考公开赛程检索；盘口字段为模型预填，不替代官方出票页。","reason":"最新模型五剧本：基准1-1；加拿大早进球可到0-1/1-2；南非低位压低0-0；红牌/后段崩盘0-2；南非定位球兑现1-0。主线平局，防加拿大小胜。","review":"","createdAt":1760000000000,"updatedAt":1760000000000
+},
+{
+  "id":"074","matchNo":"074","matchName":"德国 vs 巴拉圭","kickoff":"2026-06-29 06:00","predictionScores":"2-0 / 2-1 / 1-0","pick":"主胜","totalGoals":"1 / 2 / 3","actualScore":"","manualStatus":"auto","probHome":64,"probDraw":23,"probAway":13,"risk":"中等",
+  "strengthRating":"德国 91｜巴拉圭 76｜实力差：德国 +15","strengthNote":"德国整体阵容、压迫和前场终结层级明显高于巴拉圭；巴拉圭防守纪律强，但缺少持续推进和反击爆点。","strengthImpact":"淘汰赛德国会从末轮轮换保守回到主力争胜，055输厄瓜多尔不能机械降级德国；但巴拉圭低位会压低比分。","strengthConversion":"德国优势能转化为常规时间胜利，基准净胜1-2球；只有早进球或巴拉圭后段压出，才升级到3球胜。",
+  "injury":"关注德国前场核心和中卫组合是否回归主力；巴拉圭若核心边路继续缺爆点，反击威胁有限。","minutes":"德国淘汰赛强度会高于小组末轮，轮换保守因素下降；巴拉圭大概率先守60分钟，体能后段承压。","form":"德国曾被厄瓜多尔2-1打醒，说明已出线轮换样本不能用于淘汰赛主力场；巴拉圭0-0澳大利亚说明其能把节奏压低，但进攻兑现不足。","motivation":"淘汰赛必须出结果，德国会更早追求领先；巴拉圭目标是把90分钟拖平。","controlIntent":"德国不是控局放水，而是主力争胜；领先后可能管理节奏，但不会像小组末轮那样主动降强度。","weather":"波士顿环境相对友好，战术和破密防质量比天气更关键。","odds":"按德国(-1)让球思路记录；主胜稳于让胜，2-0/2-1决定让平或让胜。","spfHomeOdds":"","spfDrawOdds":"","spfAwayOdds":"","rqLine":"-1","rqHomeOdds":"","rqDrawOdds":"","rqAwayOdds":"","rqPick":"让胜 / 让平","rqProb":"让胜38%｜让平34%｜让负28%","scoreProb":"2-0 22%｜2-1 18%｜1-0 16%｜1-1 10%｜3-0 9%","totalGoalProb":"2球32%｜3球31%｜1球17%｜4球12%｜0球8%","halfFullProb":"胜-胜35%｜平-胜30%｜平-平12%｜胜-平6%","handicapNote":"德国-1下，2-0/3-0为让胜，1-0/2-1为让平；让胜可防，但主串不建议抛开让平。","marketSnapshot":"074：德国vs巴拉圭，淘汰赛90分钟竞彩口径；固定奖金以出票页为准。","marketSourceNote":"对阵参考公开赛程检索；盘口字段为模型预填，不替代官方出票页。","reason":"最新模型五剧本：基准2-0；早进球放大3-0；巴拉圭低位压低1-0；红牌/崩盘4-0；德国若久攻不下则1-1风险。主线德国胜，盘口让胜/让平复式。","review":"","createdAt":1760000000000,"updatedAt":1760000000000
+},
+{
+  "id":"075","matchNo":"075","matchName":"荷兰 vs 摩洛哥","kickoff":"2026-06-29 09:00","predictionScores":"2-1 / 1-1 / 2-2","pick":"主胜 / 防平","totalGoals":"2 / 3 / 4","actualScore":"","manualStatus":"auto","probHome":46,"probDraw":29,"probAway":25,"risk":"偏险",
+  "strengthRating":"荷兰 90｜摩洛哥 84｜实力差：荷兰 +6","strengthNote":"荷兰整体实力和前场层级略高，摩洛哥攻防转换和边路冲击很强，且4-2海地样本说明其比赛容易被拉开放大。","strengthImpact":"荷兰主胜最高，但摩洛哥不是低位弱队，双方进球和高比分平局要上调。","strengthConversion":"荷兰优势更像小胜或不败，不像轻松打穿；摩洛哥能进球，2-1和1-1/2-2并列核心。",
+  "injury":"关注荷兰中卫和边后卫是否完整，摩洛哥边路核心若首发，荷兰零封概率下降。","minutes":"淘汰赛中荷兰不会像末轮一样纯追净胜球，领先后会管控节奏；摩洛哥落后后仍有反击和混战进球能力。","form":"荷兰此前1-3突尼斯方向打出但让球卡边，说明强队大胜方向对不等于深盘稳；摩洛哥4-2海地提示它既能进也会给对手机会。","motivation":"两队都有晋级能力，90分钟平局价值高；荷兰更稳，摩洛哥更有波动。","controlIntent":"荷兰是主动争胜但不会无脑追大，摩洛哥若先丢球会把比赛推向开放。","weather":"蒙特雷环境偏热，后段体能与边路回防质量会影响总进球。","odds":"按荷兰(-1)让球思路记录；主胜可看，但让球优先防让负。","spfHomeOdds":"","spfDrawOdds":"","spfAwayOdds":"","rqLine":"-1","rqHomeOdds":"","rqDrawOdds":"","rqAwayOdds":"","rqPick":"让负 / 让平","rqProb":"让胜20%｜让平32%｜让负48%","scoreProb":"2-1 19%｜1-1 18%｜2-2 12%｜1-0 11%｜1-2 9%","totalGoalProb":"3球34%｜2球29%｜4球20%｜1球10%｜5+球7%","halfFullProb":"平-胜24%｜平-平23%｜胜-胜18%｜平-负10%","handicapNote":"荷兰-1下，赢1球为让平，平局/输球为让负；不建议单追荷兰让胜。","marketSnapshot":"075：荷兰vs摩洛哥，淘汰赛90分钟竞彩口径；固定奖金以出票页为准。","marketSourceNote":"对阵参考公开赛程检索；盘口字段为模型预填，不替代官方出票页。","reason":"最新模型五剧本：基准2-1；荷兰早进球放大3-1；摩洛哥低位和反击压成1-1；双方转换失控2-2/3-2；红牌导致一方2球胜。主线荷兰小胜，防平。","review":"","createdAt":1760000000000,"updatedAt":1760000000000
+},
+{
+  "id":"076","matchNo":"076","matchName":"巴西 vs 日本","kickoff":"2026-06-29 12:00","predictionScores":"2-1 / 1-1 / 1-0","pick":"主胜 / 防平","totalGoals":"1 / 2 / 3","actualScore":"","manualStatus":"auto","probHome":48,"probDraw":29,"probAway":23,"risk":"偏险",
+  "strengthRating":"巴西 92｜日本 84｜实力差：巴西 +8","strengthNote":"巴西个人能力和前场爆点更强，日本整体性、压迫纪律和反击效率高，且1-1瑞典样本说明它面对强队不会轻易崩盘。","strengthImpact":"巴西主胜最高，但日本不是典型弱队，不能把巴西3-0苏格兰样本直接外推成轻松打穿。","strengthConversion":"巴西优势更像一球小胜或90分钟不败；日本能把比赛拖进1-1，并通过定位球/转换制造冷门。",
+  "injury":"关注巴西边路核心和中锋首发，日本中场拦截和边后卫体能是关键。若巴西进攻核心轮休，主胜概率需下调。","minutes":"淘汰赛巴西会提高首发强度，但日本执行力强，前60分钟可能压低节奏；后段换人决定是否从1-1走向2-1。","form":"巴西0-3苏格兰方向验证强队主力争胜能力；日本连续强度稳定，对瑞典1-1说明其防守和调整能力可靠。","motivation":"单场淘汰赛，巴西会主动，但日本不需要冒险对攻；90分钟平局是现实防线。","controlIntent":"巴西不是已出线控局场，但面对日本的纪律性，强队打穿要看射正质量和前锋状态，不只看名气。","weather":"休斯敦环境偏热，节奏控制和换人质量会放大。","odds":"按巴西(-1)让球思路记录；主胜可防，但让球优先看让负/让平。","spfHomeOdds":"","spfDrawOdds":"","spfAwayOdds":"","rqLine":"-1","rqHomeOdds":"","rqDrawOdds":"","rqAwayOdds":"","rqPick":"让负 / 让平","rqProb":"让胜22%｜让平34%｜让负44%","scoreProb":"2-1 19%｜1-1 18%｜1-0 16%｜2-0 12%｜1-2 8%","totalGoalProb":"2球33%｜3球31%｜1球18%｜4球11%｜0球7%","halfFullProb":"平-胜25%｜平-平23%｜胜-胜18%｜平-负8%","handicapNote":"巴西-1下，赢1球为让平，平局/输球为让负；日本纪律性强，不建议单追巴西让胜。","marketSnapshot":"076：巴西vs日本，淘汰赛90分钟竞彩口径；固定奖金以出票页为准。","marketSourceNote":"对阵参考公开赛程检索；盘口字段为模型预填，不替代官方出票页。","reason":"最新模型五剧本：基准2-1；巴西早进球放大2-0/3-1；日本低位压成1-1；红牌/崩盘才到3球差；日本转换兑现可到1-2。主线巴西小胜，防平。","review":"","createdAt":1760000000000,"updatedAt":1760000000000
+}
+];
+
     const RESULT_PATCHES={
       "hist-spain-cpv": {actualScore:"0-0", kickoff:"已完赛｜2026-06-16 00:00", review:"实际0-0，模型失手。新增规则：超强热门首战面对弱队时，若对手是低位死守+门将状态好+强队边路核心未必满状态，应提高0-0/1-1冷门平局权重；强队胜率高不等于比分能打穿。"},
       "chat-belgium-egypt-pending": {actualScore:"1-1", kickoff:"已完赛｜2026-06-16 03:00", review:"实际1-1，备选比分命中。模型有效点：赛前没有盲目追比利时大胜，正确把平局列入核心防线。修正点：如果要评估主推概率，主胜48%并不够高，遇到埃及这类反击队时应把主推从2-1下调为1-1/2-1并列。"},
@@ -1099,6 +1124,12 @@
       "064": {actualScore:"0-1", kickoff:"已完赛｜2026-06-27 08:00", manualStatus:"方向命中", review:"实际乌拉圭0-1西班牙。复盘：防客胜方向命中，但高估乌拉圭进球。西班牙控球型强队领先后能把比赛锁死，乌拉圭即使必须抢分也缺少持续高质量终结。模型修正：面对西班牙这类控球强队，对手战意不能自动换算成双方进球。"},
       "065": {actualScore:"1-1", kickoff:"已完赛｜2026-06-27 11:00", manualStatus:"比分命中", review:"实际埃及1-1伊朗，主比分精确命中，埃及(-1)让负命中。模型有效点：正确识别埃及可以接受不败、伊朗必须赢但进攻兑现不稳定，1-1应作为最高权重。比赛过程也验证“必须赢只提高进攻意愿，不保证终结质量”；伊朗后段定位球和VAR制造波动，但没有稳定打开局面。新增修正：弱势方或被动方必须赢时，要上调末段定位球/混战/越位进球风险，但不要直接上调常规进球效率。"},
       "066": {actualScore:"1-5", kickoff:"已完赛｜2026-06-27 11:00", manualStatus:"方向命中", review:"实际新西兰1-5比利时，客胜方向命中，但比分和让球严重低估，比利时打穿新西兰(+2)让负。核心错误：把比利时前两场低效过度外推，低估真实实力差、核心攻击手状态回升和新西兰必须压出后的防线断裂。模型修正：连续低效强队不能一刀切降级；若真实实力差巨大、必须赢、前场核心首发且对手也必须赢，比分要加入3-0/4-1/5-1放大分支，深盘必须评估第3/4/5球。"},
+      "067": {actualScore:"0-2", kickoff:"已完赛｜2026-06-28 05:00", manualStatus:"比分命中", review:"实际巴拿马0-2英格兰，主比分精确命中，巴拿马(+2)让平命中。模型有效点：066后上调英格兰打穿分支，但没有盲目单追0-3，正确把0-2作为基准。复盘重点：强队实力优势可以转化为稳定赢球，但若对手低位纪律尚可、强队不必持续冒险，第3球仍需要早进球/红牌/防线崩盘触发。"},
+      "068": {actualScore:"2-1", kickoff:"已完赛｜2026-06-28 05:00", manualStatus:"比分命中", review:"实际克罗地亚2-1加纳，备选比分精确命中，克罗地亚(-1)让平命中。模型有效点：正确识别克罗地亚是控场型小胜，不是火力爆发型；加纳低位和身体对抗能把比赛压到一球差。修正点：主排序过度尊重加纳0-0英格兰样本，下一次遇到经验控场队对身体队，应把2-1/1-0优先级略高于1-1。"},
+      "069": {actualScore:"0-0", kickoff:"已完赛｜2026-06-28 07:30", manualStatus:"方向命中", review:"实际哥伦比亚0-0葡萄牙，平局方向命中，哥伦比亚(+1)让胜命中，但比分主区漏掉0-0。模型有效点：强强控风险判断正确，没有追葡萄牙大胜。核心修正：强强局如果双方都能接受风险后置，0-0不能只放在概率表，必须进入预测比分前三；淘汰赛/出线确认局的90分钟平局价值要上调。"},
+      "070": {actualScore:"3-1", kickoff:"已完赛｜2026-06-28 07:30", manualStatus:"方向命中", review:"实际刚果民主共和国3-1乌兹别克斯坦，主胜方向命中，但比分和刚果(-1)让球低估，实际让胜。错误点：把乌兹别克斯坦0-5后防线修复想得过于理性，低估连续大败后的心理裂缝和早丢球后的再崩风险。模型修正：弱队刚经历5球惨败，下一场若再被高强度身体队压迫，2-0/3-1要进入核心，不能只看1-0/1-1。"},
+      "071": {actualScore:"3-3", kickoff:"已完赛｜2026-06-28 10:00", manualStatus:"方向命中", review:"实际阿尔及利亚3-3奥地利，平局方向命中，但严重低估总进球和开放度。错误点：把积分卡位局误判成前45分钟谨慎+低比分，没有充分放大双方都有进攻点、防线转换不稳、末轮情绪和换人导致的高波动。模型修正：开放平局不等于1-1，若两队都需要结果且防线不稳，2-2/3-3必须进入比分主区。"},
+      "072": {actualScore:"1-3", kickoff:"已完赛｜2026-06-28 10:00", manualStatus:"方向命中", review:"实际约旦1-3阿根廷，客胜方向命中，约旦(+2)让平命中。模型有效点：066后上调阿根廷进球和让负风险，1-3也在概率表内。修正点：低估弱队荣誉战/定位球/转换中拿到1球的概率，也把阿根廷净胜3球略抬过高。后续：顶级强队对弱队，若领先后进入淘汰赛体能管理，净胜2球比净胜3球更容易成为终点。"},
     };
     function applyResultPatches(arr){return (arr||[]).map(r=>RESULT_PATCHES[r.id]?{...r,...RESULT_PATCHES[r.id]}:r)}
     function removeDeletedPlaceholders(arr){return (arr||[]).filter(r=>r.id!=="share-link-unreadable-placeholder" && r.matchNo!=="待补-分享链接");}
@@ -1316,7 +1347,7 @@
       }
     };
     function applyPostResultModelPatches(arr){return (arr||[]).map(r=>POST_RESULT_MODEL_PATCHES[r.id]?{...r,...POST_RESULT_MODEL_PATCHES[r.id]}:r)}
-    const DEFAULT_RECORDS=keepUnplayedPending(applyPostResultModelPatches(applyModelUpgradePatches(applyResultPatches(applyControlPatches([...HISTORICAL_RECORDS, ...UPCOMING_RECORDS, ...NEXT_RECORDS])))));
+    const DEFAULT_RECORDS=keepUnplayedPending(applyPostResultModelPatches(applyModelUpgradePatches(applyResultPatches(applyControlPatches([...HISTORICAL_RECORDS, ...UPCOMING_RECORDS, ...NEXT_RECORDS, ...ROUND32_RECORDS])))));
     let records=[];
     let activeRecordView='done';
     const el=id=>document.getElementById(id);
@@ -1407,7 +1438,11 @@
       "069":"2026-06-28 07:30",
       "070":"2026-06-28 07:30",
       "071":"2026-06-28 10:00",
-      "072":"2026-06-28 10:00"
+      "072":"2026-06-28 10:00",
+      "073":"2026-06-29 03:00",
+      "074":"2026-06-29 06:00",
+      "075":"2026-06-29 09:00",
+      "076":"2026-06-29 12:00"
     };
     function parseDateKey(r){
       const text=`${r.kickoff||''} ${DATE_FALLBACKS[r.id]||''}`;
@@ -1431,6 +1466,22 @@
 
     function recommendedBettingHtml(pending){
       const ids=(pending||[]).map(r=>String(r.id));
+      const hasRound32=ids.some(id=>['073','074','075','076'].includes(id));
+      if(hasRound32) return `<section class="best-bets"><div class="best-head"><div><div class="best-title">最建议体彩玩法｜073-076 淘汰赛方案</div><div class="best-sub">067-072复盘后模型升级：90分钟平局权重上调，强强局保留0-0/1-1，高开放平局要防2-2/3-3；强队主胜稳于深盘打穿。</div></div><span class="tag">Round of 32</span></div>
+        <div class="sale-panel"><div class="sale-title">开售限制先过筛<span class="tag">竞彩90分钟</span></div>
+          <div class="sale-line"><span class="sale-ok">优先主串：</span>073南非(+1)让胜/让平、074德国(-1)让胜/让平、075荷兰(-1)让负/让平、076巴西(-1)让负/让平。</div>
+          <div class="sale-line"><span class="sale-warn">谨慎单选：</span>073加拿大客胜不追打穿；074德国主胜稳于让胜；075/076强队小胜和90分钟平局都要防。</div>
+          <div class="sale-line"><span class="sale-no">不建议重仓：</span>淘汰赛深盘单选、强强局大胜、把加时晋级方向当90分钟胜负。</div>
+        </div>
+        <div class="combo-list">
+          <div class="combo-card combo-risk-low"><b>二串一｜稳妥基础</b><div class="bet-line">073 南非(+1)让胜/让平 × 076 巴西(-1)让负/让平</div><div class="bet-detail">073防加拿大常规时间只小胜或被拖平；076防日本把巴西压成一球小胜或90分钟平局。</div><div class="combo-meta"><span>难度：低-中</span><span>复式4注</span><span>主方案</span></div></div>
+          <div class="combo-card combo-risk-low"><b>三串一｜稳中求倍率</b><div class="bet-line">073让胜/让平 × 074德国(-1)让胜/让平 × 076让负/让平</div><div class="bet-detail">074德国方向最清晰，但仍用让胜/让平拆赢2球和赢1球；073/076都用让球提高容错。</div><div class="combo-meta"><span>难度：中</span><span>复式8注</span><span>更稳</span></div></div>
+          <div class="combo-card combo-risk-mid"><b>四串一｜全组方案</b><div class="bet-line">073让胜/让平 × 074让胜/让平 × 075荷兰(-1)让负/让平 × 076让负/让平</div><div class="bet-detail">075荷兰胜面略高，但摩洛哥能进球，主串用让负/让平防1球小胜和平局。</div><div class="combo-meta"><span>难度：中高</span><span>复式16注</span><span>控风险</span></div></div>
+          <div class="combo-card combo-risk-high"><b>比分/半全场小注</b><div class="bet-line">073 1-1｜074 2-0/2-1｜075 2-1/1-1｜076 2-1/1-1；半全场重点：073平-平、074平-胜、075平-胜/平-平、076平-胜</div><div class="bet-detail">淘汰赛比分波动更高，尤其要区分90分钟平局和晋级方向；比分只做小额复盘。</div><div class="combo-meta"><span>比分高风险</span><span>半全场补充</span><span>非主方案</span></div></div>
+        </div>
+        <div class="best-note"><b>最新复盘应用：</b>069提示强强局0-0要进入主比分；071提示平局可能是3-3；072提示强队领先后可能停在净胜2球。073-076优先让球复式，不用单一强队模板。</div>
+        <div class="avoid-list"><span>少碰：073加拿大打穿</span><span>少碰：074德国让胜单选</span><span>少碰：075荷兰让胜</span><span>少碰：076巴西让胜单选</span></div>
+      </section>`;
       const hasNext=ids.some(id=>['067','068','069','070','071','072'].includes(id));
       if(hasNext) return `<section class="best-bets"><div class="best-head"><div><div class="best-title">最建议体彩玩法｜067-072 串关方案</div><div class="best-sub">065/066 已完成复盘：埃及1-1精确命中，比利时1-5提醒强队兑现后会打穿深盘。这组先按真实实力/当届状态定方向，再用让球盘校准边界。</div></div><span class="tag">067-072 新预测</span></div>
         <div class="sale-panel"><div class="sale-title">开售限制先过筛<span class="tag">中国体彩口径</span></div>
@@ -1557,12 +1608,16 @@
         '060':{open:'胜平负、让球胜平负', closed:'比分/半全场/总进球需出票页确认', advice:'美国客胜热但不支持大胜；土耳其(+1)让胜/让平优先于美国客胜。'},
         '065':{open:'已完赛复盘：埃及-1让负命中', closed:'比分/半全场赛前只做小额复盘', advice:'实际1-1精确命中；必须赢的伊朗制造末段波动，但进攻兑现不足，后续仍不能把战意直接换成进球。'},
         '066':{open:'已完赛复盘：新西兰+2被打穿', closed:'赛前胜平负若未开售不纳入主串', advice:'实际比利时1-5，让负命中；后续遇到真实实力差巨大且弱队必须压出的场景，要评估第3/4/5球。'},
-        '067':{open:'胜平负、让球胜平负（巴拿马+2）', closed:'比分/半全场/总进球需出票页确认', advice:'英格兰客胜稳，+2主串改为让平/让负，防0-2卡盘和0-3打穿并列。'},
-        '068':{open:'胜平负、让球胜平负（克罗地亚-1）', closed:'比分/半全场/总进球只做小额复盘', advice:'克罗地亚方向略好，但加纳防守韧性强，-1优先让负/让平，不单追让胜。'},
-        '069':{open:'胜平负、让球胜平负（哥伦比亚+1）', closed:'比分/半全场需确认开售', advice:'强强局优先哥伦比亚+1让胜/让平，胜平负用平/葡萄牙小胜防线。'},
-        '070':{open:'胜平负、让球胜平负（刚果-1）', closed:'比分/半全场/总进球只做小额', advice:'刚果主胜略好，但-1盘更像让平/让负，不能把生死战直接推成大胜。'},
-        '071':{open:'胜平负、让球胜平负（阿尔及利亚+1）', closed:'比分/半全场需出票页确认', advice:'奥地利略优但差距不大，阿尔及利亚+1让胜/让平比直接客胜更稳。'},
-        '072':{open:'胜平负、让球胜平负（约旦+2）', closed:'比分/半全场/总进球只做小额', advice:'阿根廷客胜最清楚，066后让负升为第一选择；仍用让负/让平复式防刚好赢2球。'}
+        '067':{open:'已完赛复盘：巴拿马+2让平命中', closed:'比分/半全场只做小额复盘', advice:'实际0-2精确命中；强队赢球稳定，但低位防守可把深盘压回刚好赢2球。'},
+        '068':{open:'已完赛复盘：克罗地亚-1让平命中', closed:'比分/半全场只做小额复盘', advice:'实际2-1备选比分命中；控场型强队更像一球小胜，不能单追让胜。'},
+        '069':{open:'已完赛复盘：哥伦比亚+1让胜命中', closed:'比分/半全场只做小额复盘', advice:'实际0-0，强强控风险局必须把0-0放进比分主区。'},
+        '070':{open:'已完赛复盘：刚果-1让胜命中', closed:'比分/半全场只做小额复盘', advice:'实际3-1，低估乌兹别克连续大败后的防线和心理裂缝。'},
+        '071':{open:'已完赛复盘：阿尔及利亚+1让胜命中', closed:'比分/半全场只做小额复盘', advice:'实际3-3，方向对但总进球严重低估；开放平局要防2-2/3-3。'},
+        '072':{open:'已完赛复盘：约旦+2让平命中', closed:'比分/半全场只做小额复盘', advice:'实际1-3，阿根廷客胜方向对，但强队领先后停在净胜2球；后续深盘要防让平。'},
+        '073':{open:'胜平负、让球胜平负（南非+1）', closed:'比分/半全场/总进球需出票页确认', advice:'90分钟主线平局，防加拿大小胜；南非+1让胜/让平优先。'},
+        '074':{open:'胜平负、让球胜平负（德国-1）', closed:'比分/半全场只做小额复盘', advice:'德国主胜最清楚，但-1要拆赢1球和赢2球；让胜/让平复式。'},
+        '075':{open:'胜平负、让球胜平负（荷兰-1）', closed:'比分/半全场需出票页确认', advice:'荷兰胜面略高，但摩洛哥能进球；让负/让平优先，不追让胜。'},
+        '076':{open:'胜平负、让球胜平负（巴西-1）', closed:'比分/半全场/总进球只做小额', advice:'巴西主胜稳于让胜，日本纪律性强；让负/让平是更稳表达。'}
       };
       const x=saleMap[String(r.id||r.matchNo||'')];
       if(!x) return '';
